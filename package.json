@@ -1,17 +1,17 @@
 {
   "name": "scrollPointerEvents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "jsnext:main": "src.js",
-  "files": [ "index.js", "src.js" ],
+  "jsnext:main": "index.es",
+  "files": [ "index.js", "index.es" ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rollup -c",
     "deploy": "git add . && git commit -am 'fix' && git push && npm publish"
   },
   "dependencies": {
-    "my-global": "^1.0.0"
+    "my-global": "^2.0.0"
   },
   "devDependencies": {
     "rollup": "*",
